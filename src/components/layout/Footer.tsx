@@ -1,11 +1,10 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import { Container } from "./Container";
 import { socialLinks } from "@/data/social";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   github: Github,
   linkedin: Linkedin,
-  twitter: Twitter,
 };
 
 export function Footer() {

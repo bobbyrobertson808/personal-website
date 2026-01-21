@@ -9,9 +9,6 @@ export function Hero() {
       <Container>
         <div className="flex flex-col items-start gap-8">
           <div className="flex flex-col gap-4">
-            <p className="text-sm font-medium uppercase tracking-wider text-gray-500">
-              Product Lead
-            </p>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
               Hi, I&apos;m Bobby Robertson
             </h1>
